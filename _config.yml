@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-source: source
+source: .
 destination: _site
 sass:
   sass_dir: _sass
@@ -22,7 +22,7 @@ description: "Mobile Autonomy Solutions"
 keywords: "Mobile Robots and Machine Learning"
 
 # Site settings
-url: http://Primitix.github.io
+url: http://primitix.com # http://Primitix.github.io
 baseurl: ""
 
 # Author settings

@@ -22,7 +22,7 @@
     @include center; // mixin inside partials > _mixins.scss
     width: 22px;
     height: 2px;
-    background-color: $white-color;
+    background-color: $second-color;
 
     &::before, &:after {
       /* upper and lower lines of the menu icon */
@@ -176,16 +176,16 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      color: rgba($white-color, .5);
+      color: rgba($second-color, .5);
       font-weight: $font-weight-light;
       display: inline-block;
 
       &.selected {
-        color: $white-color;
+        color: $second-color;
       }
 
       .no-touch &:hover {
-        color: $white-color;
+        color: $second-color;
       }
     }
   }
