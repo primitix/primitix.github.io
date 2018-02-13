@@ -1,6 +1,6 @@
 // Typography
 //
-$base-font-family: 'Montserrat','Proxima Nova', Arial, sans-serif;
+$base-font-family: 'Montserrat', Arial, sans-serif;
 $serif-font-family: 'Montserrat',"Georgia", serif;
 $heading-font-family: $base-font-family;
 $fonts-path: '../fonts/';
@@ -38,27 +38,28 @@ $second-color: #039be5;
 $second-color-dark: #006db3; 
 $second-color-light: #63ccff; 
 
-$white-color: #43a047; // #fff;
-$black-color: #000;
-$blue-color: #477dca;
-$dark-gray-color: lighten($black-color, 25%);
-$medium-gray-color: lighten($dark-gray-color, 20%);
-$light-gray-color: lighten($medium-gray-color, 20%);
-$lighter-gray-color: #00701a;// lighten($light-gray-color, 20%);
+//$white-color: #43a047; // #fff;
+//$black-color: #000;
+//$blue-color: #477dca;
+//$dark-gray-color: lighten($black-color, 25%);
+//$medium-gray-color: lighten($dark-gray-color, 20%);
+//$light-gray-color: lighten($medium-gray-color, 20%);
+//$lighter-gray-color: #00701a;// lighten($light-gray-color, 20%);
+$alert-color: red;
 
 // Font Colors
 //
-$base-font-color: $medium-gray-color;
+$base-font-color: $alert-color;
 $action-color: $primary-color;
 
 // Border
 //
-$base-border-color: lighten($lighter-gray-color, 5%);
+$base-border-color: $alert-color;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
 //
-$base-background-color: $white-color;
+$base-background-color: $alert-color;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms

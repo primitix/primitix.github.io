@@ -117,7 +117,7 @@
   width: 100%;
   text-align: center;
   visibility: hidden;
-  background-color: tint($black-color, 5%);
+  background-color: tint($primary-color-dark, 5%);
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
@@ -227,6 +227,6 @@ body:not(.navigation-is-open) {
 
 body.navigation-is-open {
   .menu-burger {
-    background-color: $black-color;
+    background-color: $primary-color-light;
   }
 }
